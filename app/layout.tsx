@@ -14,7 +14,7 @@ const defaultUrl = process.env.VERCEL_URL
 
 export const metadata = {
   metadataBase: new URL(defaultUrl),
-  title: "Next.js and Supabase Starter Kit",
+  title: "DopeDetactive",
   description: "The fastest way to build apps with Next.js and Supabase",
 };
 
@@ -25,14 +25,27 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={GeistSans.className} suppressHydrationWarning>
-      <body className="bg-background text-foreground">
-        <ThemeProvider
+      <head>
+        {/* Load Ionicons from CDN */}
+        <script
+          type="module"
+          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        {/* <script
+          nomodule
+          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script> */}
+      </head>
+      <body className="bg-background text-foreground overflow-x-hidden">
+        {/* <ThemeProvider
           attribute="class"
           defaultTheme="system"
           enableSystem
           disableTransitionOnChange
-        >
-          <main className="min-h-screen flex flex-col items-center">
+        > */}
+          {/* <HeaderAuth /> */}
+          {children}
+          {/* <main className="min-h-screen flex flex-col items-center">
             <div className="flex-1 w-full flex flex-col gap-20 items-center">
               <nav className="w-full flex justify-center border-b border-b-foreground/10 h-16">
                 <div className="w-full max-w-5xl flex justify-between items-center p-3 px-5 text-sm">
@@ -64,8 +77,8 @@ export default function RootLayout({
                 <ThemeSwitcher />
               </footer>
             </div>
-          </main>
-        </ThemeProvider>
+          </main> */}
+        {/* </ThemeProvider> */}
       </body>
     </html>
   );
