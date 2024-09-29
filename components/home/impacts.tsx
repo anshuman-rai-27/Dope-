@@ -15,8 +15,8 @@ const DopingImpact = () => {
   ];
 
   return (
-    <div className="flex flex-col md:flex-row bg-gray-100 p-6 rounded-lg shadow-md px-[15vw]">
-      <div className="flex-1 md:pr-6">
+    <div className="flex flex-col md:flex-row bg-[#09070d] p-6 rounded-lg shadow-md px-[15vw]">
+      <div className="flex-1 md:pr-6 bg-[#09070d]">
         <h2 className="text-2xl font-semibold mb-4">Impacts of Doping on Athletes</h2>
         <ul className="list-disc ml-5 space-y-2">
           {impacts.map((impact, index) => (
