@@ -4,14 +4,20 @@ import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from "@/components/ui/table";
 import Image from "next/image";
+import FractalDotGrid from "../common/bg";
+import FractalDotGridExample from "../common/faractualgrid";
 // col-span-1 md:col-span-2 lg:col-span-1
 const Profile: React.FC = () => {
   return (
-    <div className=" text-foreground p-4 sm:p-8 md:p-12 lg:p-16 lg:px-[15vw]">
-      <div className="text-3xl font-bold mb-[3vw]">Your Progress</div>
+    <>
+    {/* <FractalDotGrid/> */}
+    <FractalDotGridExample/>
+    <div className=" text-foreground p-4 sm:p-8 md:p-12 lg:p-16 lg:px-[15vw] z-10 ">
+      
+      <div className="text-3xl font-bold mb-[3vw] z-50">Your Progress</div>
       <div className="flex justify-between gap-4">
         <Card className="
-
+      bg-transparent
         ">
           <CardHeader>
             <CardTitle className="text-3xl">Profile</CardTitle>
@@ -101,7 +107,7 @@ const Profile: React.FC = () => {
 
       </div>
     </div>
-
+    </>
 
   );
 }

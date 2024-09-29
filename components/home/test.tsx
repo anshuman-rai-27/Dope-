@@ -60,7 +60,7 @@ const TestimonialCarousel = () => {
 
   return (
     <section className="py-12 md:py-24 flex justify-center">
-      <div className="w-full max-w-2xl">
+      <div className="w-full max-w-4xl">
         <AnimatePresence mode="popLayout">
           <motion.div
             key={currentTestimonial}
@@ -77,7 +77,7 @@ const TestimonialCarousel = () => {
             }}
           >
             {/* <img src={image} alt={author} className="m-0 h-24 w-24" /> */}
-            <p className="m-0 text-center text-3xl font-medium tracking-tight">
+            <p className="m-0 text-center text-4xl font-medium tracking-tight">
               &quot;{text}&quot;
             </p>
             {/* <div className="mx-auto mt-5">
