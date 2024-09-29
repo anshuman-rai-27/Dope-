@@ -21,7 +21,7 @@ export function CompareDemo() {
         <h2 className="text-4xl font-semibold mb-4">Impacts of Doping</h2>
         <ul className="list-disc ml-5 space-y-2">
           {impacts.map((impact, index) => (
-            <li key={index} className="text-gray-700">{impact}</li>
+            <li key={index} className="text-gray-700 text-xl">{impact}</li>
           ))}
         </ul>
         </div>

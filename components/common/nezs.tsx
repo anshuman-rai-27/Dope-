@@ -1,9 +1,15 @@
 "use client";
 import { TextGenerateEffect } from "../ui/text-generate-effect";
 
-const words = `Oxygen gets you high. In a catastrophic emergency, we're taking giant, panicked breaths. Suddenly you become euphoric, docile. You accept your fate. It's all right here. Emergency water landing, six hundred miles an hour. Blank faces, calm as Hindu cows
-`;
+const words = `India continues to lead the charts in dope positive cases
+With the Paris Olympics around the corner, NADA would do well to ramp up the number of tests to curb the doping menace.`;
 
 export function TextGenerateEffectDemo() {
-  return <TextGenerateEffect words={words} />;
+  return (
+    <>
+    <div className="px-[15vw] my-[5vw]">
+    <TextGenerateEffect words={words} />
+    </div>
+    </>
+  );
 }

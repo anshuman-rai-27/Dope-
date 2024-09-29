@@ -2,7 +2,9 @@ import BackgroundXO from "@/components/common/back";
 import { FocusCardsDemo } from "@/components/common/cards";
 import EmojiConfetti from "@/components/common/click";
 import { CompareDemo } from "@/components/common/compare";
+import Leaderboard from "@/components/common/leaderboard";
 import NavBar from "@/components/common/Nav";
+import { TextGenerateEffectDemo } from "@/components/common/nezs";
 import Hero from "@/components/hero";
 import HomePage from "@/components/home/home";
 import DopingImpact from "@/components/home/impacts";
@@ -26,11 +28,13 @@ export default async function Index() {
       {/* <Meteors/> */}
       {/* <Leader/> */}
       <Profile/>
+      <Leaderboard/>
       
       <div className="w-full h-[10vw] flex justify-center">
       <EmojiConfetti/>
       </div>
       <CompareDemo/>
+      <TextGenerateEffectDemo/>
       {/* <DopingImpact/> */}
       {/* <FocusCardsDemo/> */}
       
