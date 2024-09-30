@@ -31,11 +31,11 @@ export default async function Index() {
       <NavBar absoluteLago={true} />
       <div className="h-[100vh] ">
       <Image
-      src="/bg.jpg"
+      src="/bg3.jpg"
       width={1600}
       height={637}
       alt="Picture of the author"
-      className="w-full h-[100vh] absolute"
+      className="w-full h-[100vh] absolute filter brightness-75 "
     />
     <div className="absolute left-[10vw] top-[20vw] text-white">
     <CoverDemo/>
