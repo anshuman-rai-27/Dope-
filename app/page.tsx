@@ -2,13 +2,17 @@ import BackgroundXO from "@/components/common/back";
 import { FocusCardsDemo } from "@/components/common/cards";
 import EmojiConfetti from "@/components/common/click";
 import { CompareDemo } from "@/components/common/compare";
+import Footer from "@/components/common/footer";
 import Leaderboard from "@/components/common/leaderboard";
 import NavBar from "@/components/common/Nav";
 import { TextGenerateEffectDemo } from "@/components/common/nezs";
+import GamifiedProgressBar from "@/components/common/pro";
 import Hero from "@/components/hero";
 import HomePage from "@/components/home/home";
 import DopingImpact from "@/components/home/impacts";
+import AthleteToolkit from "@/components/home/info";
 import Leader from "@/components/home/leader";
+import NewsSection from "@/components/home/news";
 import TestimonialCarousel from "@/components/home/test";
 import Meteors from "@/components/magicui/meteors";
 // import Profile from "@/components/profile/adel";
@@ -28,13 +32,18 @@ export default async function Index() {
       {/* <Meteors/> */}
       {/* <Leader/> */}
       <Profile/>
+      <GamifiedProgressBar progress={50}/>
       <Leaderboard/>
       
-      <div className="w-full h-[10vw] flex justify-center">
+      {/* <div className="w-full h-[10vw] flex justify-center">
       <EmojiConfetti/>
-      </div>
+      </div> */}
+      <AthleteToolkit/>
+      <NewsSection/>
       <CompareDemo/>
+      
       <TextGenerateEffectDemo/>
+      <Footer/>
       {/* <DopingImpact/> */}
       {/* <FocusCardsDemo/> */}
       

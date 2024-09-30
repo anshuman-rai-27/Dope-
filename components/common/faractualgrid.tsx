@@ -4,7 +4,7 @@ import FractalDotGrid from "./bg"
 
 function FractalDotGridExample() {
   return (
-    <div className="h-[80vh] w-screen absolute -z-10">
+    <div className="h-[100vh] w-screen absolute -z-10">
       <FractalDotGrid
         dotSize={4}
         dotSpacing={20}

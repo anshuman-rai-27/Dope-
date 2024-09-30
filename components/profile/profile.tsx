@@ -6,13 +6,14 @@ import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from "@
 import Image from "next/image";
 import FractalDotGrid from "../common/bg";
 import FractalDotGridExample from "../common/faractualgrid";
+import { RainbowButton } from "@/components/ui/rainbow-button";
 // col-span-1 md:col-span-2 lg:col-span-1
 const Profile: React.FC = () => {
   return (
     <>
     {/* <FractalDotGrid/> */}
     <FractalDotGridExample/>
-    <div className=" text-foreground p-4 sm:p-8 md:p-12 lg:p-16 lg:px-[15vw] z-10 ">
+    <div className=" text-foreground p-4 sm:p-8 md:p-12 lg:p-16 lg:px-[15vw] lg:py-[10vw] z-10 ">
       
       <div className="text-3xl font-bold mb-[3vw] z-50">Your Progress</div>
       <div className="flex justify-between gap-4">
@@ -23,6 +24,7 @@ const Profile: React.FC = () => {
             <CardTitle className="text-3xl">Profile</CardTitle>
           </CardHeader>
           <CardContent>
+            <div className="flex justify-between">
             <div className="flex items-center space-x-4">
               <Avatar>
                 <AvatarImage src="https://picsum.photos/200" />
@@ -32,6 +34,10 @@ const Profile: React.FC = () => {
                 <h2 className="text-xl font-bold">User Name</h2>
                 <p className="text-muted-foreground">user@example.com</p>
               </div>
+            </div>
+            <div>
+              <RainbowButton>Share on socials</RainbowButton>
+            </div>
             </div>
             <div className="mt-5">
               State: Uttar Pradesh

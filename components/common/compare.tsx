@@ -15,7 +15,7 @@ export function CompareDemo() {
         "Reputation damage and legal consequences",
       ];
   return (
-    <div className="p-4 flex justify-around items-center px-[15vw] gap-10 border rounded-3xl dark:bg-neutral-900 bg-[#E5D9F2]  border-neutral-200 dark:border-neutral-800 ">
+    <div className="p-4 flex justify-around items-center px-[15vw] py-[10vw] gap-10 border rounded-3xl dark:bg-neutral-900 bg-[#e0f2fe]  border-neutral-200 dark:border-neutral-800 ">
         
         <div className="flex-1 md:pr-6">
         <h2 className="text-4xl font-semibold mb-4">Impacts of Doping </h2>

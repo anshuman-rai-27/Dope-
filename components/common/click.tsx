@@ -110,7 +110,7 @@ const EmojiConfetti: React.FC = () => {
         whileTap={{ scale: 0.95 }}
         onClick={handleClick}
       >
-        Let's Learn 🎉
+        Claim New Badge 🎉
       </motion.button>
       {isExploding && (
         <canvas
