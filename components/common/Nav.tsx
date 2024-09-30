@@ -22,7 +22,7 @@ export default function NavBar({ absoluteLago }: { absoluteLago: boolean }) {
     >
       <div className="flex flex-col justify-center items-center w-[100px]">
         <Image
-          src="/common/logo.png"
+          src="/logo_icon.png"
           height={144}
           width={100}
           alt="project logo"
