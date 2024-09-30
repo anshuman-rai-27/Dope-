@@ -32,7 +32,7 @@ export default function RootLayout({
           src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
         ></script>
         <script src="https://cdn.botpress.cloud/webchat/v2.1/inject.js"></script>
-        <script src="https://mediafiles.botpress.cloud/4687b174-a253-4ef1-a80b-f5709b3bf9a0/webchat/v2.1/config.js"></script>
+        <script src="https://mediafiles.botpress.cloud/b0e6d1cc-c12b-4ca2-84c5-6b792ac09f0c/webchat/v2.1/config.js"></script>
         {/* <script
           nomodule
           src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
