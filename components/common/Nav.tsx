@@ -39,7 +39,7 @@ export default function NavBar({ absoluteLago }: { absoluteLago: boolean }) {
         >
           <Link href="/dashboard/contract">Contracts</Link>
         </Button> */}
-        <Button
+        {/* <Button
           asChild
           size="sm"
           variant="link"
@@ -54,7 +54,7 @@ export default function NavBar({ absoluteLago }: { absoluteLago: boolean }) {
           className="text-xl font-semibold text-white"
         >
           <Link href="/dashboard/chat">Chat</Link>
-        </Button>
+        </Button> */}
         <AuthButton />
       </div>
     </nav>
